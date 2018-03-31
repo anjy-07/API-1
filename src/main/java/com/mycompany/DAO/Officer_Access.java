@@ -99,7 +99,7 @@ public class Officer_Access
                 pst.setInt(3, o.getOfficeId().getOfficeId());
                 pst.setString(4, o.getDesignation());
                 pst.setString(5, o.getEmailId());
-                pst.setInt(6, o.getMobile());
+                pst.setString(6, "9971101886");
                 pst.setInt(7, o.getAadharCard());
                 pst.setString(8, o.getPassword());
                 
